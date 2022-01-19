@@ -1,5 +1,5 @@
-import pulp as plp
 import csv
+import pulp as plp
 
 """ Global Variables """
 rows = range(0, 9)
@@ -158,4 +158,3 @@ def solve_sudoku_lp(input_sudoku):
 
 if __name__ == '__main__':
     solve(path='in/hard_sudoku.csv')
-
